@@ -9,13 +9,15 @@ import SwiftUI
 import RealmSwift
 
 struct ContentView: View {
+//    @EnvironmentObject var testData: TestData
     var body: some View {
-        Text("Hello word")
+        testVIew()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(TestData())
     }
 }

@@ -14,7 +14,23 @@
 		358FEF7A25F95E92006D0489 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEF7925F95E92006D0489 /* RecordView.swift */; };
 		358FEF7E25F98CEA006D0489 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 358FEF7D25F98CEA006D0489 /* Realm */; };
 		358FEF8025F98CEA006D0489 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 358FEF7F25F98CEA006D0489 /* RealmSwift */; };
-		358FEF8325FAC8F4006D0489 /* RecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEF8225FAC8F4006D0489 /* RecordModel.swift */; };
+		358FEF8325FAC8F4006D0489 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEF8225FAC8F4006D0489 /* Record.swift */; };
+		358FEF912601297C006D0489 /* PlayerRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEF902601297C006D0489 /* PlayerRecord.swift */; };
+		358FEF9426012A04006D0489 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEF9326012A04006D0489 /* Player.swift */; };
+		358FEF9726012A5B006D0489 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEF9626012A5B006D0489 /* Game.swift */; };
+		358FEF9A26012ABB006D0489 /* FunctionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEF9926012ABB006D0489 /* FunctionProtocol.swift */; };
+		358FEF9E26012B33006D0489 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEF9D26012B33006D0489 /* TestModel.swift */; };
+		358FEFA126015670006D0489 /* PlayerRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEFA026015670006D0489 /* PlayerRecordView.swift */; };
+		358FEFA4260407D7006D0489 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEFA3260407D7006D0489 /* PlayerView.swift */; };
+		358FEFA726040941006D0489 /* RecordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEFA626040941006D0489 /* RecordRow.swift */; };
+		358FEFAA26040C15006D0489 /* GameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEFA926040C15006D0489 /* GameRow.swift */; };
+		358FEFB126040C50006D0489 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEFB026040C50006D0489 /* PlayerRow.swift */; };
+		358FEFB426040C9B006D0489 /* PlayerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEFB326040C9B006D0489 /* PlayerTableView.swift */; };
+		358FEFB726040CAD006D0489 /* GameTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEFB626040CAD006D0489 /* GameTableView.swift */; };
+		358FEFBA26040CC5006D0489 /* RecordTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEFB926040CC5006D0489 /* RecordTableView.swift */; };
+		358FEFBD260909EC006D0489 /* testVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEFBC260909EC006D0489 /* testVIew.swift */; };
+		358FEFC0260A96D2006D0489 /* RealmModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEFBF260A96D2006D0489 /* RealmModels.swift */; };
+		358FEFC3260DA3C9006D0489 /* PlayerRecordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FEFC2260DA3C9006D0489 /* PlayerRecordListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +42,23 @@
 		358FEF7125F95E45006D0489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		358FEF7225F95E45006D0489 /* BoradGameRecord.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoradGameRecord.entitlements; sourceTree = "<group>"; };
 		358FEF7925F95E92006D0489 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
-		358FEF8225FAC8F4006D0489 /* RecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordModel.swift; sourceTree = "<group>"; };
+		358FEF8225FAC8F4006D0489 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		358FEF902601297C006D0489 /* PlayerRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRecord.swift; sourceTree = "<group>"; };
+		358FEF9326012A04006D0489 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		358FEF9626012A5B006D0489 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		358FEF9926012ABB006D0489 /* FunctionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionProtocol.swift; sourceTree = "<group>"; };
+		358FEF9D26012B33006D0489 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		358FEFA026015670006D0489 /* PlayerRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRecordView.swift; sourceTree = "<group>"; };
+		358FEFA3260407D7006D0489 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		358FEFA626040941006D0489 /* RecordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRow.swift; sourceTree = "<group>"; };
+		358FEFA926040C15006D0489 /* GameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRow.swift; sourceTree = "<group>"; };
+		358FEFB026040C50006D0489 /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		358FEFB326040C9B006D0489 /* PlayerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableView.swift; sourceTree = "<group>"; };
+		358FEFB626040CAD006D0489 /* GameTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableView.swift; sourceTree = "<group>"; };
+		358FEFB926040CC5006D0489 /* RecordTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableView.swift; sourceTree = "<group>"; };
+		358FEFBC260909EC006D0489 /* testVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVIew.swift; sourceTree = "<group>"; };
+		358FEFBF260A96D2006D0489 /* RealmModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModels.swift; sourceTree = "<group>"; };
+		358FEFC2260DA3C9006D0489 /* PlayerRecordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRecordListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +116,13 @@
 		358FEF8525FAC900006D0489 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				358FEF8225FAC8F4006D0489 /* RecordModel.swift */,
+				358FEF8225FAC8F4006D0489 /* Record.swift */,
+				358FEF9D26012B33006D0489 /* TestModel.swift */,
+				358FEF902601297C006D0489 /* PlayerRecord.swift */,
+				358FEF9326012A04006D0489 /* Player.swift */,
+				358FEF9626012A5B006D0489 /* Game.swift */,
+				358FEF9926012ABB006D0489 /* FunctionProtocol.swift */,
+				358FEFBF260A96D2006D0489 /* RealmModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,6 +131,16 @@
 			isa = PBXGroup;
 			children = (
 				358FEF7925F95E92006D0489 /* RecordView.swift */,
+				358FEFA026015670006D0489 /* PlayerRecordView.swift */,
+				358FEFC2260DA3C9006D0489 /* PlayerRecordListView.swift */,
+				358FEFA3260407D7006D0489 /* PlayerView.swift */,
+				358FEFA626040941006D0489 /* RecordRow.swift */,
+				358FEFA926040C15006D0489 /* GameRow.swift */,
+				358FEFB026040C50006D0489 /* PlayerRow.swift */,
+				358FEFB326040C9B006D0489 /* PlayerTableView.swift */,
+				358FEFB626040CAD006D0489 /* GameTableView.swift */,
+				358FEFB926040CC5006D0489 /* RecordTableView.swift */,
+				358FEFBC260909EC006D0489 /* testVIew.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,9 +221,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				358FEF8325FAC8F4006D0489 /* RecordModel.swift in Sources */,
+				358FEF8325FAC8F4006D0489 /* Record.swift in Sources */,
+				358FEF9A26012ABB006D0489 /* FunctionProtocol.swift in Sources */,
+				358FEFA126015670006D0489 /* PlayerRecordView.swift in Sources */,
+				358FEFC0260A96D2006D0489 /* RealmModels.swift in Sources */,
+				358FEFA4260407D7006D0489 /* PlayerView.swift in Sources */,
+				358FEF912601297C006D0489 /* PlayerRecord.swift in Sources */,
+				358FEFA726040941006D0489 /* RecordRow.swift in Sources */,
+				358FEF9E26012B33006D0489 /* TestModel.swift in Sources */,
+				358FEFC3260DA3C9006D0489 /* PlayerRecordListView.swift in Sources */,
+				358FEF9726012A5B006D0489 /* Game.swift in Sources */,
 				358FEF6B25F95E3F006D0489 /* ContentView.swift in Sources */,
+				358FEFB126040C50006D0489 /* PlayerRow.swift in Sources */,
 				358FEF7A25F95E92006D0489 /* RecordView.swift in Sources */,
+				358FEFB726040CAD006D0489 /* GameTableView.swift in Sources */,
+				358FEFBD260909EC006D0489 /* testVIew.swift in Sources */,
+				358FEFBA26040CC5006D0489 /* RecordTableView.swift in Sources */,
+				358FEFB426040C9B006D0489 /* PlayerTableView.swift in Sources */,
+				358FEF9426012A04006D0489 /* Player.swift in Sources */,
+				358FEFAA26040C15006D0489 /* GameRow.swift in Sources */,
 				358FEF6925F95E3F006D0489 /* BoradGameRecordApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

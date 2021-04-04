@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 struct RecordView: View {
     @State var input: String = ""
     @State var startDate: Date = Date()
-    @State var endDate: Date = Date()
+    @State var endDate: Date = Date(timeIntervalSinceNow: 3600)
     @State var players: String = ""
+    @State var playerLists: [String] = ["p1"]
     
     var body: some View {
         HStack {
@@ -24,6 +26,10 @@ struct RecordView: View {
                 
                 TextField("Players", text: $players)
                 
+                Button(action: addRecord, label: {
+                    Text("AddRecord")
+                })
+                
             }
             .padding()
             
@@ -33,9 +39,36 @@ struct RecordView: View {
                
             }
             .padding()
+            
         }
-       
+
     }
+    func addRecord() {
+        let record = BGRecord()
+        record.startTime = startDate
+        record.endTime = endDate
+        let player = BGPlayer()
+        player.name = players
+        let game = BGGame()
+        game.name = input
+        let status = Status()
+        player.playerStatus.append(status)
+        record.allStatus.append(status)
+        game.records.append(record)
+        let realm = try!Realm()
+        try! realm.write{
+            realm.add(record)
+            realm.add(game)
+            realm.add(status)
+            realm.add(player)
+        }
+    }
+    
+//    func addPlayer(name: String){
+//        let player = BGPlayer()
+//        player.name = name
+//
+//    }
 }
 
 struct RecordView_Previews: PreviewProvider {

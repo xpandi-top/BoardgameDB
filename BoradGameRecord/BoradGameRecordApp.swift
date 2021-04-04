@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct BoradGameRecordApp: App {
+    
+    @StateObject private var testData = TestData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(testData)
         }
     }
 }
